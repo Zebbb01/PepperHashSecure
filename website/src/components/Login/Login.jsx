@@ -24,7 +24,7 @@ const Login = ({ setUser }) => {
     e.preventDefault();
     setLoading(true); // Start spinner when login is clicked
     try {
-      const response = await axios.post('https://access-hash-yn9w.onrender.com/login', { email, password }); // Domain HOSTED ON RENDER
+      const response = await axios.post('https://pepperhashsecure.onrender.com/login', { email, password }); // Domain HOSTED ON RENDER
       // const response = await axios.post('http://localhost:5000/login', { name, email, password }); // Domain ON LOCALHOST
       
       const { user } = response.data;

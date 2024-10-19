@@ -65,7 +65,7 @@ const Signup = ({ setIsLogin }) => {
     }
     setLoading(true);
     try {
-      const response = await axios.post('https://access-hash-yn9w.onrender.com/signup', { name, email, password }); // Domain HOSTED ON RENDER
+      const response = await axios.post('https://pepperhashsecure.onrender.com/signup', { name, email, password }); // Domain HOSTED ON RENDER
       // const response = await axios.post('http://localhost:5000/signup', { name, email, password }); // Domain ON LOCALHOST
       console.log("Signup Response.", response.data);
       setErrorMessage("");
