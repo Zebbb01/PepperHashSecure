@@ -96,13 +96,13 @@ button:hover {
 .title {
   font-size: 30px;
   font-weight: bold;
-  color: #4A4947;
+  color: #DAD4B5;
 }
 
 .authText{
   font-size: 30px;
   font-weight: bold;
-  color: #4A4947;
+  color: #DAD4B5;
   margin-top: 60px;
   margin-bottom: 0px;
 }
@@ -110,7 +110,7 @@ button:hover {
 .divider {
   border: 0;
   height: 2px;
-  background-color: #ddd;
+  background-color: #F2E8C6;
   margin: -25px 0; /* Add spacing between elements */
   width: 100%;
 }
