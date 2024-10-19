@@ -85,8 +85,9 @@ const Signup = ({ setIsLogin }) => {
       ) : (
       <form className="form-container" onSubmit={handleSignup}>
         <div className="title-container">
+          
+          <h3 className="title">PepperHash Secure</h3>
           <img src={lock} alt="Padlock Icon" className="padlock-icon" /> 
-          <h3 className="title">CryptoGuard</h3>
         </div>
         <hr className="divider" />
           <h2 className="authText">Sign Up</h2>
