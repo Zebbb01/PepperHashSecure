@@ -80,3 +80,38 @@ button:hover {
 .toggle-span:hover {
   color: #F2E8C6;
 }
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.padlock-icon {
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
+  margin-right: 5px; /* Space between image and text */
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4A4947;
+}
+
+.authText{
+  font-size: 30px;
+  font-weight: bold;
+  color: #4A4947;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.divider {
+  border: 0;
+  height: 2px;
+  background-color: #ddd;
+  margin: -25px 0; /* Add spacing between elements */
+  width: 100%;
+}
+
